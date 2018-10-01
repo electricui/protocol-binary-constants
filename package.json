@@ -1,0 +1,29 @@
+{
+  "name": "@electricui/protocol-binary-constants",
+  "version": "0.3.18",
+  "description": "ElectricUI Binary Protocol Constants",
+  "electricui-dev": true,
+  "repository": "https://Mike-Dax@github.com/Scottapotamas/electricui-interface.git",
+  "author": "Michael Orenstein <mike@whiteshadows.me>, Scott Rapson <scottapotamas@gmail.com>",
+  "license": "See LICENCE",
+  "main": "lib/index.js",
+  "main-when-published": "lib/index.js.eui",
+  "files": [
+    "lib/*",
+    "manifest.json"
+  ],
+  "publishConfig": {
+    "registry": "http://127.0.0.1:7001"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.3",
+    "rollup": "^0.63.4",
+    "rollup-plugin-typescript2": "^0.16.1",
+    "typescript": "^3.0.0-rc"
+  },
+  "scripts": {
+    "prepack": "npm run build && silversmith prepack",
+    "build": "rollup -c",
+    "postpack": "silversmith postpack"
+  }
+}
