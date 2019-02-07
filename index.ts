@@ -64,3 +64,5 @@ export const enum EVENTS {
 }
 
 export const CALLBACK_PAYLOAD: null = null
+
+export const MAX_ACK_NUM = 3
