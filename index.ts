@@ -17,8 +17,6 @@ export const enum TYPES {
 export const enum MESSAGEIDS {
   LIBRARY_VERSION = 'o',
   BOARD_IDENTIFIER = 'i',
-  SESSION_IDENTIFIER = 'j',
-  ERROR = 'e',
   HEARTBEAT = 'h',
   DEFAULT_INTERFACE = 'k',
   SEARCH = 'x',
