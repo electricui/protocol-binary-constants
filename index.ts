@@ -23,6 +23,8 @@ export const enum MESSAGEIDS {
   READWRITE_MESSAGEIDS_REQUEST_MESSAGE_OBJECTS = 'w',
   READWRITE_MESSAGEIDS_ITEM = 'u',
   READWRITE_MESSAGEIDS_COUNT = 'v',
+  SESSION_ID = 'r',
+  SESSION_ID_BROADCAST = 's',
 }
 
 export const enum VARIABLE_NAMESPACE {
@@ -59,3 +61,5 @@ export const enum EVENTS {
 export const CALLBACK_PAYLOAD: null = null
 
 export const MAX_ACK_NUM = 3
+
+export const SESSION_ID_NULL = 0
