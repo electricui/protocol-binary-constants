@@ -14,9 +14,9 @@
   ],
   "devDependencies": {
     "@types/node": "^11.9.4",
-    "rollup": "^1.9.1",
-    "rollup-plugin-typescript2": "^0.19.2",
-    "typescript": "^3.5.1"
+    "rollup": "^1.17.0",
+    "rollup-plugin-typescript2": "^0.22.0",
+    "typescript": "^3.5.3"
   },
   "scripts": {
     "prepack": "silversmith prepack",
