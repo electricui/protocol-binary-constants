@@ -16,7 +16,7 @@
     "@types/node": "^11.9.4",
     "rollup": "^1.23.1",
     "rollup-plugin-typescript2": "^0.22.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.4"
   },
   "scripts": {
     "prepack": "silversmith prepack",
