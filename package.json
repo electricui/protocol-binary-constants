@@ -13,12 +13,10 @@
     "manifest.json"
   ],
   "devDependencies": {
-    "@types/node": "^11.9.4",
-    "rollup": "^1.27.5",
-    "rollup-plugin-copy": "^3.3.0",
-    "rollup-plugin-license": "^0.13.0",
-    "rollup-plugin-typescript2": "^0.25.3",
-    "typescript": "^3.7.2"
+    "@types/node": "^12.12.27",
+    "typescript": "^3.7.5",
+    "rollup": "^1.31.1",
+    "@electricui/build-rollup-config": "^0.6.15-prerelease.0"
   },
   "scripts": {
     "prepack": "silversmith prepack",
