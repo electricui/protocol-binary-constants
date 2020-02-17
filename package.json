@@ -1,6 +1,6 @@
 {
   "name": "@electricui/protocol-binary-constants",
-  "version": "0.6.15-prerelease.0",
+  "version": "0.6.15-prerelease.16",
   "description": "ElectricUI Binary Protocol Constants",
   "electricui-dev": true,
   "author": "Electric UI <support@electricui.com> (https://electricui.com)",
@@ -13,10 +13,10 @@
     "manifest.json"
   ],
   "devDependencies": {
+    "@electricui/build-rollup-config": "^0.6.15-prerelease.16",
     "@types/node": "^12.12.27",
-    "typescript": "^3.7.5",
     "rollup": "^1.31.1",
-    "@electricui/build-rollup-config": "^0.6.15-prerelease.0"
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "prepack": "silversmith prepack",
