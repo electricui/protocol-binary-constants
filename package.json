@@ -17,7 +17,7 @@
     "@electricui/build-rollup-config": "^0.7.0",
     "@types/node": "^12.12.27",
     "rollup": "^1.31.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "prepack": "silversmith prepack",
