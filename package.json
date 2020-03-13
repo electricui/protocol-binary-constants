@@ -1,6 +1,6 @@
 {
   "name": "@electricui/protocol-binary-constants",
-  "version": "0.7.0",
+  "version": "0.7.2-prerelease.0",
   "description": "ElectricUI Binary Protocol Constants",
   "electricui-dev": true,
   "author": "Electric UI <support@electricui.com> (https://electricui.com)",
@@ -14,7 +14,7 @@
     "manifest.json"
   ],
   "devDependencies": {
-    "@electricui/build-rollup-config": "^0.7.0",
+    "@electricui/build-rollup-config": "^0.7.2-prerelease.0",
     "@types/node": "^12.12.27",
     "rollup": "^1.31.1",
     "typescript": "^3.8.3"
