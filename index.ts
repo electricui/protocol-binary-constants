@@ -1,6 +1,7 @@
 import {} from '@electricui/build-rollup-config'
 
 export const enum TYPES {
+  UNKNOWN = -1,
   CALLBACK = 0,
   CUSTOM_MARKER = 1,
   OFFSET_METADATA = 2,
